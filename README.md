@@ -1,31 +1,31 @@
-#AirBnB Clone Project
+# AirBnB Clone Project
 
-###Concepts
+### Concepts
 Python packages
 AirBnB clone
 
-###Background
+### Background
 Welcome to the AirBnB clone project! Before starting, familiarize yourself with the AirBnB concept page.
 
-###Command Interpreter
+### Command Interpreter
 This project begins with building a command interpreter to manage AirBnB objects. It's a crucial step towards developing a full web application.
 
-###What’s a Command Interpreter?
+### What’s a Command Interpreter?
 Similar to a Shell, it's designed for:
 
-###Creating, retrieving, updating, and deleting project objects.
+### Creating, retrieving, updating, and deleting project objects.
 Implementing object serialization and deserialization.
 
-###Requirements
+### Requirements
 
 Python 3.8.5 on Ubuntu 20.04 LTS
 Code style: pycodestyle (v2.8.*)
 Documentation for modules, classes, and functions
 Unit tests using unittest module in tests folder
 
-###Execution
+### Execution
 
-####Run in interactive mode:
+#### Run in interactive mode:
 
 $ ./console.py
 (hbnb) help
@@ -37,10 +37,10 @@ $ echo "help" | ./console.py
 EOF  help  quit
 (hbnb)
 
-####Ensure tests pass:
+#### Ensure tests pass:
 
 $ echo "python3 -m unittest discover tests" | bash
 
-###AUTHORS
+### AUTHORS
 
 Simangele Tutubala 
