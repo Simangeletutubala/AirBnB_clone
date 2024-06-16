@@ -34,7 +34,8 @@ class TestConsole(unittest.TestCase):
     def test_quit(self):
         """test the quit command"""
         with self.assertRaises(SystemExit):
-            self.console.onecmd("quit")
+             self.console.onecmd("quit")
+
 
     def test_help(self):
         """test the help command"""
