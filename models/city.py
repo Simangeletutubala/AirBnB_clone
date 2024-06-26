@@ -1,11 +1,9 @@
 #!/usr/bin/python3
-"""This module creates a User class"""
-
+""" City Module for HBNB project """
 from models.base_model import BaseModel
 
 
 class City(BaseModel):
-    """Class for managing city objects"""
-
+    """ The city class, contains state ID and name """
     state_id = ""
     name = ""
